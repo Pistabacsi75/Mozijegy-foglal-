@@ -49,3 +49,6 @@ mozijegy-foglalo/
 ├── dokumentacio/
 │   └── adatbazis.sql
 └── README.md
+## Fejlesztési megjegyzés
+
+A projekt fejlesztése során külön kliensoldali, szerveroldali, adatbázis- és tesztelési részek készültek.
