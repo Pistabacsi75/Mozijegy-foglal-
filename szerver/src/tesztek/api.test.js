@@ -1,3 +1,4 @@
+// Alap API tesztek a filmek és vetítések listázásának ellenőrzésére.
 const request = require("supertest");
 const alkalmazas = require("../alkalmazas");
 
