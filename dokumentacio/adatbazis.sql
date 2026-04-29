@@ -35,3 +35,4 @@ CREATE TABLE Foglalas (
   FOREIGN KEY (felhasznaloId) REFERENCES Felhasznalo(id),
   FOREIGN KEY (vetitesId) REFERENCES Vetites(id)
 );
+-- A fenti script az alkalmazás relációs adatbázisának tábláit hozza létre.
