@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mozijegy Foglaló</title>
+  <link rel="stylesheet" href="stilus.css" />
+</head>
+<body>
+  <header>
+    <h1>Mozijegy Foglaló</h1>
+    <p>Filmek és vetítések listázása, egyszerű jegyfoglalással.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Filmek</h2>
+      <div id="filmekLista" class="kartya-tarolo"></div>
+    </section>
+
+    <section>
+      <h2>Vetítések</h2>
+      <div id="vetitesekLista" class="kartya-tarolo"></div>
+    </section>
+
+    <section>
+      <h2>Jegyfoglalás</h2>
+
+      <form id="foglalasUrlap" class="urlap">
+        <label>
+          Felhasználó azonosító:
+          <input type="number" id="felhasznaloId" value="1" required />
+        </label>
+
+        <label>
+          Vetítés azonosító:
+          <input type="number" id="vetitesId" required />
+        </label>
+
+        <label>
+          Helyek száma:
+          <input type="number" id="helyekSzama" min="1" value="1" required />
+        </label>
+
+        <button type="submit">Foglalás elküldése</button>
+      </form>
+
+      <p id="foglalasUzenet"></p>
+    </section>
+  </main>
+
+  <script src="alkalmazas.js"></script>
+</body>
+</html>
