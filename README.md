@@ -1,5 +1,45 @@
 # Mozijegy Foglaló Webalkalmazás
+## 🛠️ Telepítés és futtatás
 
+### Backend indítása
+
+```bash
+cd szerver
+npm install
+npx prisma generate
+npm run dev
+```
+
+A backend elérhető:
+
+- http://localhost:3000
+- http://localhost:3000/api/filmek
+
+---
+
+### Frontend indítása
+
+A frontend külön telepítést nem igényel.
+
+Nyisd meg böngészőben:
+
+```txt
+kliens/index.html
+```
+
+Fontos: a backendnek futnia kell a frontend használata közben.
+
+---
+
+## 🎬 Használat
+
+1. A weboldalon megjelennek a filmek és vetítések.
+2. A kívánt vetítésnél nézd meg a **Vetítés ID** értéket.
+3. A **Jegyfoglalás** űrlapon add meg:
+   - felhasználó azonosító
+   - vetítés azonosító
+   - helyek száma
+4. Kattints a **Foglalás elküldése** gombra.
 ## Projekt célja
 
 Az alkalmazás egy egyszerű online mozijegy-foglaló rendszer mozik számára.
