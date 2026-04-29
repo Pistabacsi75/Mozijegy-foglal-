@@ -12,6 +12,7 @@ async function filmekBetoltese() {
     kartya.className = "kartya";
 
     kartya.innerHTML = `
+      ${film.kepUrl ? `<img class="film-kep" src="${film.kepUrl}" alt="${film.cim} plakát">` : ""}
       <h3>${film.cim}</h3>
       <p>${film.leiras}</p>
       <p><strong>Hossz:</strong> ${film.hosszPerc} perc</p>
